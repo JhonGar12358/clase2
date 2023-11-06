@@ -1,70 +1,58 @@
-# number1 = 5
-# texto = 'texto'
-# boolean= False
-# float = 5.6 
-# sum = number1 + float
-# #Calcular el area de un cuadrado
-# base = int(input('ingrese la base: '))
-# altura = int(input('ingrese la altura: '))
 
-# resultado = base * altura
+# PRIMER EJERCICIO
 
-#print(resultado)
+num = int(input("Escribe un numero: "))
 
-#PRIMER EJERCICIO
+if num % 2= 0:
+    print('es par')
+else:
+    print('es impar')
 
-# num = int(input("Escribe un numero: "))
+# SEGUNDO EJERCICIO
 
-# if num % 2= 0:
-#     print('es par')
-# else:
-#     print('es impar')
+edad= int(input('Escribe tu edad: '))
 
-#SEGUNDO EJERCICIO
+if edad < 18:
+    print('eres menor de edad')
+elif edad >= 18 and edad <= 65:
+    print('eres mayor de edad')
+else:
+    print('eres un adulto mayor')
 
-# edad= int(input('Escribe tu edad: '))
+# TERCER EJERCICIO
 
-# if edad < 18:
-#     print('eres menor de edad')
-# elif edad >= 18 and edad <= 65:
-#     print('eres mayor de edad')
-# else:
-#     print('eres un adulto mayor')
+precio = int(input('ingrese el precio del producto: '))
+edad = int(input('Ingrese su edad: '))
 
-#TERCER EJERCICIO
-
-# precio = int(input('ingrese el precio del producto: '))
-# edad = int(input('Ingrese su edad: '))
-
-# if edad < 18:
-#     descuentoMen = (precio*10)/100
-#     total= print('su descuento es del 10% y el total a pagar es:', precio-descuentoMen)
-# elif edad >= 65:
-#     descuentoMay= (precio*15)/100 
-#     total= print('su descuento es del 15% y el total a pagar es:' , precio-descuentoMay)
-# elif edad >= 18 and edad <= 65:
-#     total= 'no tienes descuento'
-#     print(total)
+if edad < 18:
+    descuentoMen = (precio*10)/100
+    total= print('su descuento es del 10% y el total a pagar es:', precio-descuentoMen)
+elif edad >= 65:
+    descuentoMay= (precio*15)/100 
+    total= print('su descuento es del 15% y el total a pagar es:' , precio-descuentoMay)
+elif edad >= 18 and edad <= 65:
+    total= 'no tienes descuento'
+    print(total)
 
 
 
 
-#CUARTO EJERCICIO
+# CUARTO EJERCICIO
 
-# puntuacion = int(input('Ingrese la puntuación: '))
+puntuacion = int(input('Ingrese la puntuación: '))
 
-# if puntuacion >= 90 and puntuacion<= 100:
-#     print('"A" (sobresaliente)')
-# elif puntuacion >= 80 and puntuacion< 90:
-#     print('"B" (bueno)')
-# elif puntuacion >= 70 and puntuacion<= 79:
-#     print('"C" (satisfactorio)')
-# elif puntuacion >= 60 and puntuacion<= 69:
-#     print('"D" (necesita mejorar)') 
-# elif puntuacion < 60:
-#     print('"F" (reprobado)')
+if puntuacion >= 90 and puntuacion<= 100:
+    print('"A" (sobresaliente)')
+elif puntuacion >= 80 and puntuacion< 90:
+    print('"B" (bueno)')
+elif puntuacion >= 70 and puntuacion<= 79:
+    print('"C" (satisfactorio)')
+elif puntuacion >= 60 and puntuacion<= 69:
+    print('"D" (necesita mejorar)') 
+elif puntuacion < 60:
+    print('"F" (reprobado)')
 
-#QUINTO EJERCICIO
+# QUINTO EJERCICIO
 
 salario = int(input('ingrese su salario anual: '))
 
