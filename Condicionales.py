@@ -3,7 +3,7 @@
 
 num = int(input("Escribe un numero: "))
 
-if num % 2= 0:
+if num % 2 == 0:
     print('es par')
 else:
     print('es impar')
