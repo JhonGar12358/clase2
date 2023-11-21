@@ -121,18 +121,18 @@
 
 #NOVENO EJERCICIO
 
-import random 
-aleatorio = random.randint(1, 100)
-adivina = 0
-while adivina != aleatorio:
+# import random 
+# aleatorio = random.randint(1, 100)
+# adivina = 0
+# while adivina != aleatorio:
     
-    if adivina == 0:
-        print('Inicia el juego')
-    elif adivina < aleatorio and adivina <= 100:
-        print('demasiado bajo')
-    else:
-        print('demasiado alto')
-    adivina = int(input('ingresa el numero: '))
+#     if adivina == 0:
+#         print('Inicia el juego')
+#     elif adivina < aleatorio and adivina <= 100:
+#         print('demasiado bajo')
+#     else:
+#         print('demasiado alto')
+#     adivina = int(input('ingresa el numero: '))
 
 
 
